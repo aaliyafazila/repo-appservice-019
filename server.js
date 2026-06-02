@@ -21,7 +21,7 @@ app.get('/profil', (req, res) => {
     });
 });
 
-// Endpoint baru untuk Exercise
+// Endpoint baru 
 app.get('/waktu', (req, res) => {
     res.json({
         waktuServer: new Date().toISOString()
